@@ -1,0 +1,53 @@
+.contenedor #encabezado {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contenedor #cuerpo {
+  padding: 2rem;
+}
+
+.contenedor #cuerpo #botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 1rem;
+}
+
+.contenedor #cuerpo #botones #botonOscuro {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.contenedor #cuerpo .card-deck {
+  margin: 1.5rem;
+}
+
+.contenedor #cuerpo #pagando {
+  display: none;
+}
+
+.contenedor #pieDePagina {
+  padding: 2rem;
+}
+
+.contenedor #pieDePagina #botonesFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor #pieDePagina #api {
+  background-color: aquamarine;
+  margin: 1rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=principal.css.map */

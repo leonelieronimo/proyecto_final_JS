@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Leonel",
+        "apellido": "Ieronimo",
+        "direccion": "Bv Oroño 1246",
+        "email": "leonel@gmail.com",
+        "codigo": 2000,
+        "monto": 34780
+    },
+    {
+        "nombre": "Lionel",
+        "apellido": "Messi",
+        "direccion": "Av Francia 1899",
+        "email": "messi10@gmail.com",
+        "codigo": 2000,
+        "monto": 100
+    },
+    {
+        "nombre": "Leanne Graham",
+        "apellido": "Bret",
+        "direccion":"Kulas Light 2123",
+        "email": "Sincere@april.biz",
+        "codigo": 2000,
+        "monto": 99881
+    },
+    {
+        "nombre": "Patricia Lebsack",
+        "apellido": "Karianne",
+        "direccion": "Hoeger Mall 465",
+        "email": "Julianne.OConner@kory.org",
+        "codigo": 2000,
+        "monto": 45864
+    },
+    {
+        "nombre": "Chelsey Dietrich",
+        "apellido": "Kamren",
+        "direccion": "Skiles Walks 4456",
+        "email": "Lucio_Hettinger@annie.ca",
+        "codigo": 2000,
+        "monto": 340
+    }  
+]

@@ -1,0 +1,50 @@
+.contenedor
+{
+    #encabezado
+    {
+
+        text-align: center;
+        padding: 2rem;
+    }
+    #cuerpo
+    {
+
+        padding: 2rem;
+        #botones
+        {
+            display: flex;
+            justify-content:start;
+            margin: 1rem;
+            #botonOscuro
+            {
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }           
+        }
+        .card-deck
+        {
+            margin: 1.5rem;
+        }
+        #pagando
+        {
+            display: none;
+        }
+    }
+    #pieDePagina
+    {
+
+        padding: 2rem;
+        #botonesFooter
+        {
+            display: flex;
+            align-items: space-around;
+            justify-content: space-around;
+        }
+        #api
+        {
+            background-color: aquamarine;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    }
+}
