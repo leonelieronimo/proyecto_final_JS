@@ -327,6 +327,13 @@ pagar.onclick = () =>{
     {
         $("#pagando").show();
     }
+    else
+    {
+        Swal.fire({
+            icon: 'error',
+            title: 'Carrito vacío. No hay nada para pagar!'
+            })
+    }
 }
 
 //Guardando datos del usuario en Local Storage
@@ -371,7 +378,7 @@ function validarFormulario(e)
         e.preventDefault();
         console.log("faltan datos");
         Swal.fire({
-            icon: 'success',
+            icon: 'error',
             title: 'Faltan completar campos'
             })
     }
