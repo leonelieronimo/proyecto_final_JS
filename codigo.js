@@ -323,8 +323,10 @@ total.appendChild(compra)
 const pagar = document.querySelector("#pagar");
 const formulario = document.querySelector("#pagando");
 pagar.onclick = () =>{
-
-    $("#pagando").show();
+    if (monto > 0)
+    {
+        $("#pagando").show();
+    }
 }
 
 //Guardando datos del usuario en Local Storage
